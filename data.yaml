@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: chance-be3ro
+  project: plate-detection-cuimo
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chance-be3ro/plate-detection-cuimo/dataset/2
